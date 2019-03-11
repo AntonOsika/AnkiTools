@@ -41,7 +41,7 @@ import json
 
 with open('payload.json') as f:
     payload = json.load(f)
-with AnkiDirect() as api
+with AnkiDirect() as api:
     api.add(payload)
 ```
 
